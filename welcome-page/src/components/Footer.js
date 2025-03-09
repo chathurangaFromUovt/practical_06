@@ -9,7 +9,7 @@ function Footer() {
                     <div class="row">
 
                         <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">MyWebsite</h5>
+                            <h5 class="text-uppercase">WELCOME</h5>
                             <p>We provide the best solutions for your needs. Contact us anytime.</p>
                         </div>
 
@@ -36,7 +36,7 @@ function Footer() {
 
 
                 <div class="text-center p-3 bg-secondary">
-                    © 2025 MyWebsite. All Rights Reserved.
+                    © 2025 WELCOME. All Rights Reserved.
                 </div>
 
             </footer>

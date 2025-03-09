@@ -1,4 +1,4 @@
-function Header() {
+function About() {
 
     return (
 
@@ -7,7 +7,7 @@ function Header() {
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
 
-                    <a class="navbar-brand" href="#">WELCOME</a>
+                    <a class="navbar-brand" href="#">About</a>
 
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -47,4 +47,4 @@ function Header() {
     )
 }
 
-export default Header;
+export default About;
