@@ -1,47 +1,60 @@
 function Footer() {
-
     return (
+        <>
+            <footer>
+                <br />
+                <div className="py-5 bg-dark-subtle">
+                    <div className="container">
+                        <div className="row gy-4">
 
-        <div>
+                            <div className="col-lg-3 col-md-6">
+                                <h4>About us</h4>
+                                <p>
+                                    This is a wider card with supporting text below
+                                    as a natural lead-in to additional content.
+                                </p>
+                            </div>
 
-            <footer class="bg-dark text-white text-center text-lg-start mt-5">
-                <div class="container p-4">
-                    <div class="row">
+                            <div className="col-lg-3 col-md-6">
+                                <h4>Important links</h4>
+                                <ul className="list-unstyled">
+                                    <li><a href="#" className="text-dark">About us</a></li>
+                                    <li><a href="#" className="text-dark">Privacy policy</a></li>
+                                    <li><a href="#" className="text-dark">Terms of services</a></li>
+                                </ul>
+                            </div>
 
-                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">WELCOME</h5>
-                            <p>We provide the best solutions for your needs. Contact us anytime.</p>
-                        </div>
+                            <div className="col-lg-3 col-md-6">
+                                <h4>Our location</h4>
+                                <p>
+                                    No. 000<br />
+                                    High Level Road<br />
+                                    Srilanka
+                                </p>
+                            </div>
 
-
-                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">Quick Links</h5>
-                            <ul class="list-unstyled mb-0">
-                                <li><a href="#" class="text-white">Home</a></li>
-                                <li><a href="#" class="text-white">About</a></li>
-                                <li><a href="#" class="text-white">Services</a></li>
-                                <li><a href="#" class="text-white">Contact</a></li>
-                            </ul>
-                        </div>
-
-
-                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">Follow Us</h5>
-                            <a href="#" class="text-white me-4"><i class="bi bi-facebook"></i> Facebook</a><br />
-                            <a href="#" class="text-white me-4"><i class="bi bi-twitter"></i> Twitter</a><br />
-                            <a href="#" class="text-white me-4"><i class="bi bi-instagram"></i> Instagram</a>
+                            <div className="col-lg-3 col-md-6">
+                                <h4>Stay updated</h4>
+                                <form>
+                                    <div className="mb-3">
+                                        <input className="form-control" type="email" placeholder="E-mail" required />
+                                    </div>
+                                    <button className="btn btn-dark w-100" type="button">
+                                        Subscribe now!
+                                    </button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-
-                <div class="text-center p-3 bg-secondary">
-                    © 2025 WELCOME. All Rights Reserved.
+                <div className="bg-dark py-3">
+                    <div className="text-center text-white">
+                        <p className="mb-0">Copyright © 2025</p>
+                    </div>
                 </div>
-
             </footer>
-        </div>
-    )
+        </>
+    );
 }
 
 export default Footer;
