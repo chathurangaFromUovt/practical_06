@@ -20,7 +20,7 @@ function Contact() {
                                 <a href="#" className="text-decoration-none text-dark">Home</a>
                             </li>
                             <li className="breadcrumb-item active" aria-current="page" style={{ fontWeight: 'bold', color: '#dc3545' }}>
-                                contact
+                                Contact
                             </li>
                         </ol>
                     </nav>
