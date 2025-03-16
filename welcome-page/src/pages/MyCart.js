@@ -6,12 +6,10 @@ function MyCart() {
         return savedCart ? JSON.parse(savedCart) : [];
     });
 
-    // Update localStorage whenever cart changes
     useEffect(() => {
         localStorage.setItem("cart", JSON.stringify(cart));
     }, [cart]);
 
-    // Function to remove item from cart
     const removeFromCart = (index) => {
         const updatedCart = cart.filter((_, i) => i !== index);
         setCart(updatedCart);
